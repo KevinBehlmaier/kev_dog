@@ -4,6 +4,9 @@ require 'capybara/cucumber'
 require 'capybara-screenshot'
 require 'selenium-webdriver'
 
+#IF SERVER_URL is defined use it
+# ||= IF SERVER_URL is nil (empty) set it equal to the environment variable ENV['SERVER_URL']
+# || or set it equal to 'http://www.itriagehealth.com'
 SERVER_URL  ||= ENV['SERVER_URL'] || 'http://www.itriagehealth.com'
 WEB_BROWSER ||= :chrome
 

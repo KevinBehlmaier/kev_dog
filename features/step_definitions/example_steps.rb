@@ -5,4 +5,3 @@ end
 Then(/^I see a title with the text "(.*?)"$/) do |text|
   has_title?(/#{text}/)
 end
-
