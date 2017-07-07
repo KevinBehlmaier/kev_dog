@@ -1,7 +1,7 @@
 require 'pry'
 
 When(/^I login with (.*?) and (.*?)$/) do |user, pass|
-  click_link 'Login'
+  find('Email Address')
   fill_in('Email Address', with: user )
   fill_in('Password', with: pass)
   find('.submit-button').click

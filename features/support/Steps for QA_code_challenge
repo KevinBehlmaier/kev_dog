@@ -1,0 +1,16 @@
+Steps for QA_code_challenge
+
+1. Clone the repo from GitHub by getting the SSH code and running git clone ..SSH code.. 
+2. cd into that directory where QA questions are stored
+3. open up cloned folder/file in text editor (refer to README file for instructions)
+4. run git branch to see current branches
+5. git branch ..branch_name.. will make a new branch
+6. git checkout ..branch_name.. will change into that branch
+7. git checkout -b ..branch_name.. will create a new branch and checkout to it
+8. run git branch to be sure you are in the correct branch
+END OF SETUP!!!!! 
+
+Step one 
+
+1. create a new .feature file 
+2. 

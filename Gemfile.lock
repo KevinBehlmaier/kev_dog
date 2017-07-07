@@ -68,6 +68,8 @@ GEM
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
       websocket (~> 1.0)
+    shoulda-matchers (3.1.1)
+      activesupport (>= 4.0.0)
     slop (3.6.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
@@ -89,6 +91,7 @@ DEPENDENCIES
   pry
   rake
   selenium-webdriver
+  shoulda-matchers
 
 BUNDLED WITH
    1.14.3
